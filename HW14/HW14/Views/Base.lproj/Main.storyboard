@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMV-y2-Xg5">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s4n-Ph-ypS">
+            <objects>
+                <viewController id="a23-gJ-vXl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lmL-P5-mFE">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="JvY-Wi-9u9">
+                                <rect key="frame" x="94.666666666666671" y="385.66666666666669" width="238.66666666666663" height="165.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2r1-bc-zLg">
+                                        <rect key="frame" x="0.0" y="0.0" width="238.66666666666666" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go show by Segut without data"/>
+                                        <connections>
+                                            <segue destination="pVt-Ig-3Qo" kind="show" id="LMa-hY-Gwz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM8-bH-z6b">
+                                        <rect key="frame" x="0.0" y="67" width="238.66666666666666" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly by Segut without data"/>
+                                        <connections>
+                                            <segue destination="pVt-Ig-3Qo" kind="presentation" id="CRJ-iS-AXX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI9-UP-RVG">
+                                        <rect key="frame" x="0.0" y="133.99999999999994" width="238.66666666666666" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly full skreen"/>
+                                        <connections>
+                                            <segue destination="pVt-Ig-3Qo" kind="presentation" modalPresentationStyle="fullScreen" id="Gi2-iL-VTt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FJS-N0-agA"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="JvY-Wi-9u9" firstAttribute="centerY" secondItem="FJS-N0-agA" secondAttribute="centerY" id="BfK-BP-x0S"/>
+                            <constraint firstItem="JvY-Wi-9u9" firstAttribute="centerX" secondItem="FJS-N0-agA" secondAttribute="centerX" id="Wgi-kB-KdE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bK-OD-otm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-254" y="25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZgI-kd-Pak">
+            <objects>
+                <viewController id="pVt-Ig-3Qo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V6p-ya-jXv">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wcT-Tl-pmB"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mdB-k4-7U2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PwT-aU-eK3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="603" y="25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kbA-ic-xvi">
+            <objects>
+                <viewController id="bA1-PL-Cew" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dRe-jG-CdY">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-Zi-260">
+                                <rect key="frame" x="87.666666666666686" y="445" width="253" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSG-xb-q1e">
+                                        <rect key="frame" x="0.0" y="0.0" width="253" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Show with NC seguy without data"/>
+                                        <connections>
+                                            <segue destination="ShZ-5f-CNS" kind="show" id="o7e-Jd-cbZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSm-ts-2jM">
+                                        <rect key="frame" x="0.0" y="59" width="253" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Modaly with NC seguy without date"/>
+                                        <connections>
+                                            <segue destination="ShZ-5f-CNS" kind="presentation" id="EIH-4f-fkI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aRQ-Mt-UdI"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="DfX-Zi-260" firstAttribute="centerX" secondItem="aRQ-Mt-UdI" secondAttribute="centerX" id="AMU-qt-9mu"/>
+                            <constraint firstItem="DfX-Zi-260" firstAttribute="centerY" secondItem="aRQ-Mt-UdI" secondAttribute="centerY" id="rN0-tY-GDm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="GBd-Xd-R2n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MoX-n6-KMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="644.92753623188412" y="697.76785714285711"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fev-t8-TH8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UMV-y2-Xg5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6lz-Jt-eCJ">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bA1-PL-Cew" kind="relationship" relationship="rootViewController" id="g68-xP-cjc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4mN-ku-Q7F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-265.21739130434787" y="697.76785714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xqa-7O-zeW">
+            <objects>
+                <viewController id="ShZ-5f-CNS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a7h-YU-4vg">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lnr-zm-dsq"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RHC-yq-OSE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFh-St-8AL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1525" y="698"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EIH-4f-fkI"/>
+        <segue reference="Gi2-iL-VTt"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
