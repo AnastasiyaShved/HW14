@@ -14,6 +14,8 @@
 		FA880E042A940844006AC1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA880E022A940844006AC1BC /* LaunchScreen.storyboard */; };
 		FA880E0F2A94180F006AC1BC /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E0E2A94180F006AC1BC /* FirstVC.swift */; };
 		FA880E112A94182F006AC1BC /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E102A94182F006AC1BC /* SecondVC.swift */; };
+		FA880E142A942427006AC1BC /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA880E122A942427006AC1BC /* ThirdVC.xib */; };
+		FA880E152A942427006AC1BC /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E132A942427006AC1BC /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FA880E052A940844006AC1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA880E0E2A94180F006AC1BC /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		FA880E102A94182F006AC1BC /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		FA880E122A942427006AC1BC /* ThirdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
+		FA880E132A942427006AC1BC /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			children = (
 				FA880E0E2A94180F006AC1BC /* FirstVC.swift */,
 				FA880E102A94182F006AC1BC /* SecondVC.swift */,
+				FA880E122A942427006AC1BC /* ThirdVC.xib */,
+				FA880E132A942427006AC1BC /* ThirdVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA880E142A942427006AC1BC /* ThirdVC.xib in Resources */,
 				FA880E042A940844006AC1BC /* LaunchScreen.storyboard in Resources */,
 				FA880E012A940844006AC1BC /* Assets.xcassets in Resources */,
 				FA880DFF2A940841006AC1BC /* Main.storyboard in Resources */,
@@ -169,6 +176,7 @@
 				FA880E0F2A94180F006AC1BC /* FirstVC.swift in Sources */,
 				FA880E112A94182F006AC1BC /* SecondVC.swift in Sources */,
 				FA880DFA2A940841006AC1BC /* SceneDelegate.swift in Sources */,
+				FA880E152A942427006AC1BC /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

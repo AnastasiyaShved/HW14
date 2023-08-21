@@ -18,6 +18,13 @@ class FirstVC: UIViewController {
     }
     
     
+    @IBAction func goTo3VC(_ sender: UIButton) {
+        let vc = ThirdVC(nibName: "ThirdVC", bundle: nil)
+        vc.dataString = "Hello from first VC"
+        vc.navigationItem.title = "XIB VC"
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
     
 
     

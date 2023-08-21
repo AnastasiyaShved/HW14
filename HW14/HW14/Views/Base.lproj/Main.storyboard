@@ -174,6 +174,9 @@
                                         <rect key="frame" x="0.0" y="59" width="378" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Go to VC with XIB and send Date"/>
+                                        <connections>
+                                            <action selector="goTo3VC:" destination="fz7-HM-BS3" eventType="touchUpInside" id="wpn-ky-Og5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWe-eB-1xI">
                                         <rect key="frame" x="0.0" y="118" width="378" height="31"/>
