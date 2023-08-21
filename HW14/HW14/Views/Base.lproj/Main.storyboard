@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UMV-y2-Xg5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hta-5a-nOP">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,28 +17,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="JvY-Wi-9u9">
-                                <rect key="frame" x="94.666666666666671" y="385.66666666666669" width="238.66666666666663" height="165.00000000000006"/>
+                                <rect key="frame" x="93.333333333333329" y="385.66666666666669" width="241.66666666666669" height="165.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2r1-bc-zLg">
-                                        <rect key="frame" x="0.0" y="0.0" width="238.66666666666666" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="241.66666666666666" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Go show by Segut without data"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go show by Segue without data"/>
                                         <connections>
                                             <segue destination="pVt-Ig-3Qo" kind="show" id="LMa-hY-Gwz"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM8-bH-z6b">
-                                        <rect key="frame" x="0.0" y="67" width="238.66666666666666" height="31"/>
+                                        <rect key="frame" x="0.0" y="67" width="241.66666666666666" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly by Segut without data"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly by Segue without data"/>
                                         <connections>
                                             <segue destination="pVt-Ig-3Qo" kind="presentation" id="CRJ-iS-AXX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI9-UP-RVG">
-                                        <rect key="frame" x="0.0" y="133.99999999999994" width="238.66666666666666" height="31"/>
+                                        <rect key="frame" x="0.0" y="133.99999999999994" width="241.66666666666666" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly full skreen"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go modaly full screen"/>
                                         <connections>
                                             <segue destination="pVt-Ig-3Qo" kind="presentation" modalPresentationStyle="fullScreen" id="Gi2-iL-VTt"/>
                                         </connections>
@@ -83,20 +83,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-Zi-260">
-                                <rect key="frame" x="87.666666666666686" y="445" width="253" height="90"/>
+                                <rect key="frame" x="87.333333333333329" y="445" width="253.33333333333337" height="90"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSG-xb-q1e">
-                                        <rect key="frame" x="0.0" y="0.0" width="253" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="253.33333333333334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Show with NC seguy without data"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Show with NC segue without data"/>
                                         <connections>
                                             <segue destination="ShZ-5f-CNS" kind="show" id="o7e-Jd-cbZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSm-ts-2jM">
-                                        <rect key="frame" x="0.0" y="59" width="253" height="31"/>
+                                        <rect key="frame" x="0.0" y="59" width="253.33333333333334" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Modaly with NC seguy without date"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Modaly with NC segue without date"/>
                                         <connections>
                                             <segue destination="ShZ-5f-CNS" kind="presentation" id="EIH-4f-fkI"/>
                                         </connections>
@@ -151,12 +151,141 @@
             </objects>
             <point key="canvasLocation" x="1525" y="698"/>
         </scene>
+        <!--First VC-->
+        <scene sceneID="mKo-b0-BvQ">
+            <objects>
+                <viewController id="fz7-HM-BS3" customClass="FirstVC" customModule="HW14" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BlI-ib-uDr">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mtz-GD-7Y0">
+                                <rect key="frame" x="25" y="377.66666666666669" width="378" height="225.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XP0-Zy-TGy">
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go to VC (mod.) by Segue and send Data"/>
+                                        <connections>
+                                            <action selector="gooToSecVC:" destination="fz7-HM-BS3" eventType="touchUpInside" id="e91-r2-SX1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYu-Ut-QlX">
+                                        <rect key="frame" x="0.0" y="59" width="378" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go to VC with XIB and send Date"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWe-eB-1xI">
+                                        <rect key="frame" x="0.0" y="118" width="378" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go to VC by separetad Storyboard and send Data"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1x-yp-MXe">
+                                        <rect key="frame" x="0.0" y="176.99999999999994" width="378" height="48"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Go to VC by separetad Storyboard with segue and send Data"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auC-Sp-ans">
+                                <rect key="frame" x="25" y="113" width="378" height="26.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HrR-rz-Fg4"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="HrR-rz-Fg4" firstAttribute="trailing" secondItem="Mtz-GD-7Y0" secondAttribute="trailing" constant="25" id="9ov-no-94K"/>
+                            <constraint firstItem="auC-Sp-ans" firstAttribute="top" secondItem="HrR-rz-Fg4" secondAttribute="top" constant="25" id="Ahq-3E-0Ng"/>
+                            <constraint firstItem="HrR-rz-Fg4" firstAttribute="trailing" secondItem="auC-Sp-ans" secondAttribute="trailing" constant="25" id="BEx-DY-UEi"/>
+                            <constraint firstItem="Mtz-GD-7Y0" firstAttribute="centerX" secondItem="HrR-rz-Fg4" secondAttribute="centerX" id="Swv-nM-ii8"/>
+                            <constraint firstItem="Mtz-GD-7Y0" firstAttribute="centerY" secondItem="HrR-rz-Fg4" secondAttribute="centerY" id="Wfe-fI-J5t"/>
+                            <constraint firstItem="Mtz-GD-7Y0" firstAttribute="leading" secondItem="HrR-rz-Fg4" secondAttribute="leading" constant="25" id="lCh-eJ-JIK"/>
+                            <constraint firstItem="auC-Sp-ans" firstAttribute="leading" secondItem="HrR-rz-Fg4" secondAttribute="leading" constant="25" id="nCq-5e-Xjg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="First VC" id="lxa-qs-n0h"/>
+                    <connections>
+                        <outlet property="labelTex" destination="auC-Sp-ans" id="nWo-bk-WjC"/>
+                        <segue destination="nzJ-LS-UGY" kind="show" identifier="gooToSecVC" id="bzW-Py-ZAz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wxg-KZ-Zee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="1400"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="Hyt-9O-fuA">
+            <objects>
+                <viewController id="nzJ-LS-UGY" customClass="SecondVC" customModule="HW14" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9vQ-J2-uY5">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSV-m7-81I">
+                                <rect key="frame" x="25" y="113" width="378" height="26.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1i-6K-0cv">
+                                <rect key="frame" x="147" y="474.66666666666669" width="134" height="31"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Close modaly VC"/>
+                                <connections>
+                                    <action selector="closeAction:" destination="nzJ-LS-UGY" eventType="touchUpInside" id="Un3-1e-AyE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WVV-ej-FCq"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="A1i-6K-0cv" firstAttribute="centerY" secondItem="WVV-ej-FCq" secondAttribute="centerY" id="IdI-1r-8IT"/>
+                            <constraint firstItem="WVV-ej-FCq" firstAttribute="trailing" secondItem="eSV-m7-81I" secondAttribute="trailing" constant="25" id="L3v-kF-OT5"/>
+                            <constraint firstItem="eSV-m7-81I" firstAttribute="leading" secondItem="WVV-ej-FCq" secondAttribute="leading" constant="25" id="rr8-x7-cMA"/>
+                            <constraint firstItem="A1i-6K-0cv" firstAttribute="centerX" secondItem="WVV-ej-FCq" secondAttribute="centerX" id="t7x-A0-8Ju"/>
+                            <constraint firstItem="eSV-m7-81I" firstAttribute="top" secondItem="WVV-ej-FCq" secondAttribute="top" constant="25" id="y6h-WD-98Y"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="keO-7Z-FE3"/>
+                    <connections>
+                        <outlet property="labelTex" destination="eSV-m7-81I" id="mIx-dm-FMk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aMg-h0-FXI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1423" y="1400"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o5y-5W-CGJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hta-5a-nOP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4dG-wm-fj3">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fz7-HM-BS3" kind="relationship" relationship="rootViewController" id="OlO-iH-MCK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sQZ-e4-dmn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-255" y="1400"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="EIH-4f-fkI"/>
         <segue reference="Gi2-iL-VTt"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
