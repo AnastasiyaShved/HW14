@@ -182,11 +182,17 @@
                                         <rect key="frame" x="0.0" y="118" width="378" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Go to VC by separetad Storyboard and send Data"/>
+                                        <connections>
+                                            <action selector="goTo4withoutSegue" destination="fz7-HM-BS3" eventType="touchUpInside" id="G8s-Jl-e2C"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1x-yp-MXe">
                                         <rect key="frame" x="0.0" y="176.99999999999994" width="378" height="48"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Go to VC by separetad Storyboard with segue and send Data"/>
+                                        <connections>
+                                            <segue destination="E0U-To-T8y" kind="show" identifier="goToFourthVC" id="f3e-mP-fEh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -218,6 +224,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wxg-KZ-Zee" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="674" y="1400"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="qSZ-fs-eBi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Second" id="E0U-To-T8y" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="UnS-Ra-AFs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vC4-7l-9bo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1403" y="1678"/>
         </scene>
         <!--SecondVC-->
         <scene sceneID="Hyt-9O-fuA">
@@ -260,7 +276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aMg-h0-FXI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1423" y="1400"/>
+            <point key="canvasLocation" x="1555" y="1338"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o5y-5W-CGJ">

@@ -16,6 +16,8 @@
 		FA880E112A94182F006AC1BC /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E102A94182F006AC1BC /* SecondVC.swift */; };
 		FA880E142A942427006AC1BC /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA880E122A942427006AC1BC /* ThirdVC.xib */; };
 		FA880E152A942427006AC1BC /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E132A942427006AC1BC /* ThirdVC.swift */; };
+		FA880E172A942AF4006AC1BC /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA880E162A942AF4006AC1BC /* Second.storyboard */; };
+		FA880E192A942BBA006AC1BC /* FouthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA880E182A942BBA006AC1BC /* FouthVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FA880E102A94182F006AC1BC /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		FA880E122A942427006AC1BC /* ThirdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 		FA880E132A942427006AC1BC /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		FA880E162A942AF4006AC1BC /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		FA880E182A942BBA006AC1BC /* FouthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouthVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 			children = (
 				FA880DFD2A940841006AC1BC /* Main.storyboard */,
 				FA880E022A940844006AC1BC /* LaunchScreen.storyboard */,
+				FA880E122A942427006AC1BC /* ThirdVC.xib */,
+				FA880E162A942AF4006AC1BC /* Second.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,8 +100,8 @@
 			children = (
 				FA880E0E2A94180F006AC1BC /* FirstVC.swift */,
 				FA880E102A94182F006AC1BC /* SecondVC.swift */,
-				FA880E122A942427006AC1BC /* ThirdVC.xib */,
 				FA880E132A942427006AC1BC /* ThirdVC.swift */,
+				FA880E182A942BBA006AC1BC /* FouthVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +167,7 @@
 				FA880E142A942427006AC1BC /* ThirdVC.xib in Resources */,
 				FA880E042A940844006AC1BC /* LaunchScreen.storyboard in Resources */,
 				FA880E012A940844006AC1BC /* Assets.xcassets in Resources */,
+				FA880E172A942AF4006AC1BC /* Second.storyboard in Resources */,
 				FA880DFF2A940841006AC1BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +184,7 @@
 				FA880E112A94182F006AC1BC /* SecondVC.swift in Sources */,
 				FA880DFA2A940841006AC1BC /* SceneDelegate.swift in Sources */,
 				FA880E152A942427006AC1BC /* ThirdVC.swift in Sources */,
+				FA880E192A942BBA006AC1BC /* FouthVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
